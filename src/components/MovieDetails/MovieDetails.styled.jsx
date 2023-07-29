@@ -2,7 +2,10 @@ import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 
 export const GalleryContainer = styled.div`
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
 `;
 
 export const GalleryContentWrapper = styled.div`
