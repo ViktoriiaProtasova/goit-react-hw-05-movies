@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { ColorRing } from 'react-loader-spinner';
 import { getReviewsDetails } from 'requests';
 import { LoaderWrapper } from '../commonCss.styled';
-import { OopsContent } from './Reviews.styled';
+import { OopsContent, ReviewItem } from './Reviews.styled';
 
 const Reviews = () => {
   const { movieId } = useParams();
@@ -45,10 +45,10 @@ const Reviews = () => {
       )}
       {reviewsData && reviewsData.length !== 0 ? (
         reviewsData.map(({ author, content, id }) => (
-          <li key={id}>
+          <ReviewItem key={id}>
             <h4>{author}</h4>
             <p>{content}</p>
-          </li>
+          </ReviewItem>
         ))
       ) : (
         <OopsContent>
