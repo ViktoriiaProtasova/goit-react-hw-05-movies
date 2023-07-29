@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 export const MovieItemWrapper = styled.ul`
   display: flex;
+  justify-content: center;
   list-style: none;
   padding-left: 0px;
   flex-wrap: wrap;
