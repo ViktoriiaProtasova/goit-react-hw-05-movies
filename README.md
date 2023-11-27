@@ -1,6 +1,6 @@
 # Movie-search
 
-A project to create basic routing for a movie search and storage application.	
+A project to create basic routing for a movie search and storage application.
 
 ## Features
 
@@ -10,4 +10,4 @@ A project to create basic routing for a movie search and storage application.
 
 Git, WebPack, AXIOS, CSS, JavaScript, HTML5, React, and involved Rest API.
 
-<img alt="screenshot-1" src="screenshot-1.jpg"/>
+<img alt="screenshot-1" src="./assets/screenshot-1.jpg"/>
